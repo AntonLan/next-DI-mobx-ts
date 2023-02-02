@@ -1,0 +1,140 @@
+.banner {
+  width: 332px;
+  height: 462px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+
+  h1 {
+    margin-bottom: 15px;
+  }
+
+  .bannerTop {
+    padding-top: 10px;
+    display: flex;
+    height: 140px;
+
+    .bannerTopContent {
+      width: 100%;
+      color: white;
+      background-color: #636B7F;
+
+      p {
+        margin-top: 0;
+        margin-left: 25px;
+      }
+    }
+
+    .select {
+      position: relative;
+      cursor: pointer;
+      padding-top: 10px;
+      color: #e0e1e5;
+
+      p {
+        z-index: 100;
+        position: absolute;
+      }
+
+      div {
+        z-index: 50;
+        position: absolute;
+        margin-left: 82px;
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        border: 3px solid #737a8c;
+      }
+    }
+
+  }
+
+  .bannerBottom {
+    display: flex;
+
+    .bannerBottomContent {
+      width: 100%;
+      padding-left: 25px;
+      padding-top: 23px;
+      background-color: #F5F5F7;
+
+
+      div {
+        display: flex;
+        align-items: center;
+
+        .labelContainer {
+          display: flex;
+          margin: 0;
+        }
+      }
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .select {
+    cursor: pointer;
+    padding-top: 10px;
+    color: #919195;
+
+    p {
+      z-index: 100;
+    }
+
+    div {
+      z-index: 50;
+      margin-left: -8px;
+      width: 16px;
+      height: 16px;
+      border-radius: 100%;
+      border: 3px solid #FFFFFF;
+    }
+  }
+
+}
+
+.labelContainer {
+  display: flex;
+  margin-top: 23px;
+  margin-left: 11px;
+
+
+  .titleLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #FFDC38;
+    color: black;
+
+  }
+
+  .labelLeft {
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #FFDC38;
+    border-left: 19px solid transparent;
+  }
+
+  .labelRight {
+    width: 0;
+    height: 0;
+    border-top: 22px solid #FFDC38;
+    border-right: 19px solid transparent;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,153 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 272px;
+  height: 402px;
+  margin: 0;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #F5F5F7;
+  position: relative;
+
+  img {
+    margin: 0 auto
+  }
+
+  .cardCategories {
+    color: #999999;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+
+  .cardTitle {
+    color: #2E2E33;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .cardPrice {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #2E2E33;
+
+    span {
+      font-weight: 500;
+      font-size: 11px;
+      color: #999999;
+    }
+
+  }
+
+  .cartContainer {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+      margin: 0;
+    }
+
+    .buttonCart {
+      width: 175px;
+      height: 40px;
+      cursor: pointer;
+      background: #00B177;
+      border-radius: 90px;
+      border: none;
+      color: white;
+    }
+
+  }
+
+
+
+  .buttonContainer {
+    display: flex;
+
+    button {
+      margin-right: -43px;
+      z-index: 100;
+      cursor: pointer;
+      width: 100px;
+      height: 39.67px;
+      border: none;
+      color: white;
+      font-weight: 500;
+      font-size: 13px;
+      background: #4056A1;
+      border-radius: 90px;
+    }
+
+    .countProduct {
+      display: flex;
+      position: relative;
+      align-items: center;
+      width: 119px;
+      height: 40px;
+      background: #F5F5F7;
+      border-radius: 30px;
+
+      p {
+        position: absolute;
+        left: 75px;
+        font-weight: 500;
+        font-size: 12px;
+        color: #2E2E33;
+      }
+
+      button {
+        cursor: pointer;
+        width: 24px;
+        font-size: 20px;
+        background: #F5F5F7;
+        color: #b9b9bc
+      }
+
+      .btnDecrement{
+        position: absolute;
+        left: 50px;
+      }
+
+      .btnIncrement {
+        position: absolute;
+        left: 90px;
+      }
+    }
+  }
+}
+
+
+.labelContainer {
+  display: flex;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+
+  .titleLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 22px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #F23C30;
+    color: white;
+  }
+
+  .labelLeft {
+    width: 0;
+    height: 0;
+    border-bottom: 22px solid #F23C30;
+    border-left: 19px solid transparent;
+  }
+
+  .labelRight {
+    width: 0;
+    height: 0;
+    border-top: 22px solid #D9362B;
+    border-right: 19px solid transparent;
+  }
+}
